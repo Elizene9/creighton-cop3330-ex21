@@ -19,7 +19,6 @@ Use a single output statement for this program.
  */
 package Exercise_21;
 
-import javax.sql.rowset.serial.SerialException;
 import java.util.Scanner;
 public class ex21 {
     static Scanner input = new Scanner(System.in);
@@ -28,7 +27,7 @@ public class ex21 {
 
         System.out.println("\nPlease enter the number of the month\n");
         int num = input.nextInt();
-        
+
         String[] months = {
                 "January", "February", "March", "April", "May", "June", "July", "August",
                 "September", "October", "November", "December"
@@ -48,7 +47,6 @@ public class ex21 {
                 break;
 
             default:
-                System.out.println("Nothing has been entered\n");
         }
     }
 }
